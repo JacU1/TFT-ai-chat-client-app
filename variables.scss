@@ -1,0 +1,32 @@
+
+$dark: #313638;
+$light: #F9F6EE;
+$light-dark:#a6a6a6;
+
+// Small devices
+@mixin smartpfone-xs {
+    @media (min-width: 320px) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin smartphone-md {
+    @media (min-width: 425px) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin tablet-xl {
+    @media (min-width: 992px) {
+        @content;
+    }
+ }
